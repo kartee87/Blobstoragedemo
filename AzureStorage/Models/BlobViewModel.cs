@@ -16,6 +16,7 @@ namespace AzureStorage.Models
 
 		public String fileNameWithoutExt
 		{
+			// making change for automatic CI
 			get
 			{
 				return Path.GetFileNameWithoutExtension(ActualFileName);
